@@ -33,4 +33,5 @@ inputs => output/s
 * Wednesday False => 7:30
 * Saturday True => 9:00
 * Saturday False => 9:00
-* Friday True => 7:00
+* Friday False => 7:00
+* Friday True => 8:30
