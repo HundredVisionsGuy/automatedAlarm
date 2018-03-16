@@ -17,4 +17,4 @@ def automatedAlarm(day, noSchool):
 
 if __name__ == '__main__':
     x = automatedAlarm("wednesday",True)
-    print x
+    print (x)
