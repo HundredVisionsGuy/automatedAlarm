@@ -1,11 +1,20 @@
 # automatedAlarm.py
 # by _______
 
-# Write function defintion: automatedAlarm()
+def automatedAlarm(day, noSchool):
+	weekends = ["saturday","sunday"]
+	weekdays = ["monday","tuesday","wednesday","thursday","friday"]
+	if day.lower() in weekends:
+		return "9:00 am"
+	else if day.lower() in weekdays and noSchool:
+		return "9.30 am " if day.lower() == "monday" else "8.30 am"
+	else:
+		return "7.30 am " if day.lower() == "wednesday" else "7.00 am"
+
+
 
 # Make sure it returns a value
 
 if __name__ == '__main__':
-    # Call the function in here if you want to test it
-    # Make sure it's indented
-    pass # remove or comment out this line if you wish to test the function
+    x = automatedAlarm("wednesday",True)
+    print x
