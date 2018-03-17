@@ -1,5 +1,6 @@
-# automatedAlarm.py
-# by _______
+# automatedAlarm.py boiiii
+# by roshan singh 
+# good read: https://blogs.oracle.com/ravello/continuous-integration-deployment-test-automation
 
 def automatedAlarm(day, noSchool):
 	weekends = ["saturday","sunday"]
