@@ -1,4 +1,4 @@
-# -automatedAlarm()
+# ---automatedAlarm()
  your alarm clock can be programmed by Python provided you can write a function to automate it.
 
 **requirements:**
