@@ -1,6 +1,7 @@
 # automatedAlarm()
  your alarm clock can be programmed by Python provided you can write a function to automate it.
-
+**NOTE:**
+this is an assignment for my students and not an actual project, so I do not need any pull requests for this.
 **requirements:**
 ----------
 You want to make sure your alarm is set for...
