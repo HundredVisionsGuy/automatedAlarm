@@ -1,4 +1,5 @@
-# automatedAlarm()
+# Automated Alarm
+## alarm.py
 
 Your alarm clock can be programmed by Python provided you can write a function to automate it.
 
@@ -19,7 +20,7 @@ You want to make sure your alarm is set for...
 
 **Inputs:**
 ----------
-* **automatedAlarm()** receives two inputs (string and boolean): *day* and *noSchool*
+* **set_alarm()** receives two inputs (string and boolean): *day* and *noSchool*
   * **day** is a string ("Monday", "Tuesday", "Wednesday"...)
   * **noSchool** is a boolean
     * True = if it's a vacation, holiday, or summer
@@ -27,7 +28,7 @@ You want to make sure your alarm is set for...
 
 **Output:**
 ------------
-automatedAlarm() returns one output (a string): time (e.g. "8:00")
+set_alarm() returns one output (a string): time (e.g. "8:00")
 
 **Examples:**
 inputs => output/s
